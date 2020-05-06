@@ -1786,6 +1786,7 @@ input, select, textarea {
 
 	header.major h2 {
 		color: #3d6f95;
+		color: #946262;
 		font-size: 3.5em;
 	}
 
@@ -3325,4 +3326,14 @@ input, select, textarea {
 img.skill-icon {
     margin-right: 10%;
     margin-bottom: 4%;
+}
+
+a.resume-link {
+    border: 1px solid #946262;
+    padding: 12px 24px;
+	/* border-radius: 33%; */
+	border-bottom-left-radius:28.8px;
+	border-bottom-right-radius:28.8px;
+	border-top-left-radius: 28.8px;
+	border-top-right-radius: 28.8px;
 }
