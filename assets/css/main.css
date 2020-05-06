@@ -3316,3 +3316,13 @@ input, select, textarea {
 			}
 
 	}
+
+/* img.skill-icon {
+	margin-right: 91px;
+	margin-bottom: 20px;
+} */
+
+img.skill-icon {
+    margin-right: 10%;
+    margin-bottom: 4%;
+}
