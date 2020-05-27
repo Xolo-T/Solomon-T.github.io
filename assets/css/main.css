@@ -27,7 +27,14 @@ section, summary, time, mark, audio, video {
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;}
+	display: block;
+}
+
+.small_screen_about_avatar{
+	display: none;
+	height: 200px;
+	width: 200px;
+}
 
 body {
 	line-height: 1;
@@ -2942,6 +2949,19 @@ input, select, textarea {
 	}
 
 	@media screen and (max-width: 1024px) {
+
+		/* */
+		.large_screen_navBar_avatar{
+			display: none !important;
+		}
+
+		.small_screen_about_avatar{
+			display: block;
+			height: 200px;
+			width: 200px;
+			border-radius: 100%;
+       		/* width: 100%; */
+		}
 
 		/* Basic */
 
